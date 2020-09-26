@@ -1,5 +1,5 @@
-# SayCheese v1.0
-ማሊሺየስ ሊንክ በመላክ የሰው web cam በመጠቀም ፎቶ የሚያነሳ ከዛም ወደ እኛ የሚልክ tool ነው።
+#subscribe my YouTube channel 
+https://www.youtube.com/channel/UCuqNP6yfOXw5EPDtLW5qVyQ
 
 ![cheese](https://user-images.githubusercontent.com/34893261/56869077-e5714d80-69d1-11e9-8ce2-29a254021890.jpg)
 
